@@ -1,0 +1,23 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+mat-drawer{
+    width: 250px;
+    background-color: #778591;
+}
+mat-drawer-container{
+    height: 100%;
+}
+app-footer{
+    background-color: #ddd;
+}
+app-footer{
+    background-color: #ddd;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}

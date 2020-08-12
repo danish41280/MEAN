@@ -1,0 +1,21 @@
+.collapse{
+    position:absolute;
+    right: 0;
+}
+.bg-light{
+    background-color: #534d64!important;
+}
+.mat-icon{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+.navbar{
+    padding: 20px;  
+}

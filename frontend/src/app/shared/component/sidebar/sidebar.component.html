@@ -1,0 +1,11 @@
+
+      <p>Recently Viewed</p>
+      <ul *ngIf="showFiller">
+          <li>
+              <a routerLink="../admin">Admin</a>
+          </li>
+      </ul>
+      <button (click)="showFiller = !showFiller" mat-raised-button>
+        Toggle extra text
+      </button>
+  

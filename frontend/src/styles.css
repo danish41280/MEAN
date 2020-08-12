@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #f5f5f5 !important;
+}
+html, body { height: 100%; }
+body {     font-family: 'Lato', Lato, Arial, sans-serif;
+    font-size: 13px;
+    color: #534d64;
+    margin: 0;
+    overflow: auto;
+    height: 100%; }

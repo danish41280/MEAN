@@ -1,0 +1,24 @@
+<form [formGroup]="loginForm" (ngSubmit)="userLogin()">
+    <div class="custom">
+        
+    <div class="logo">
+        <img src="../../../assets/company_logo.png">
+    </div>
+    <div class="input-group">
+        <input type="text" class="form-control"
+               placeholder="Username" required autofocus
+               tabindex="1" id="user_name" name="user_name" value='' autocomplete="off" formControlName="email">
+    </div>
+    <div class="input-group">
+        <input type="password" class="form-control"
+               placeholder="Password" tabindex="2"
+               id="username_password" name="username_password" value='' autocomplete="off" formControlName="password">
+    </div>
+    <div class="input-group">
+    <input id="bigbutton" class="btn btn-lg btn-primary btn-block" type="submit"
+                       title="Log In" tabindex="3" name="Login"
+                       value="LogIn" [disabled]="!loginForm.valid">
+                       </div>
+    </div>
+    
+    </form>
